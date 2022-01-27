@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10xp;
+    font-weight: 400;
+    height: 100vh;
+    background: #ccc;
+}
+
+.containar {
+    height: 100vh;
+    display:grid; 
+    display:grid;
+    place-items: center;
+}
+
+.btn {
+    border: 2px solid #333;
+    color: #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
